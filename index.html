@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+	<script src="https://kit.fontawesome.com/a22a6be6e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header" class="scroll-up-btn">
+        <div class="container">
+         <nav>
+        <div class="logo"><h1>Portfo<span>lio.</span></h1></div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer | Software Developer | UI/UX Designer</p>
+                <h1>Hi, I'm <span>Keerthiraj</span><br>Moger From Bengaluru</h1>
+            </div>
+        </div>
+    </div>
+
+<!-----------About-------------->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="images/portfolio2.jpeg">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>Hello, I'm Keerthiraj, a multifaceted web and software developer on a mission to create innovative digital solutions that drive positive change. My journey into the world of development is driven by a relentless curiosity and a deep passion for crafting intelligent, user-centric, and efficient software.
+					Armed with a solid educational foundation in Master of Computer Application, I've acquired a comprehensive skill set in both web and software development. I'm equally adept at crafting elegant user interfaces and developing the intricate back-end systems that power them.The challenge of solving problems, optimizing performance, and turning lines of code into dynamic, user-friendly experiences is what fuels my passion.</p>
+
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experince')">Internships</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+							<li><span>Web Developmant</span><br>Web app Development</li>
+							<li><span>App Developmant</span><br>Building Android/ios apps</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experince">
+						<ul>
+							<li><span>Web Developer Internship</span><br>by Siyara Interns</li>
+							<li><span>Cyber Security Virtual Internship</span><br>by Eduskills under AICTE</li>
+							<li><span>AWS Internship</span><br>by Brainovision under AICTE</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>2023</span><br>Master Fullstack development Certificate from Great Learning</li>
+							<li><span>2023</span><br>MCA from Surana College Bengaluru</li>
+							<li><span>2021</span><br>Bsc(CS) from PPC Udupi</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+     </div>
+
+
+<!---------------------Services------------------>
+
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+			    <i class="fa-solid fa-code"></i>
+				<h2>Web Design</h2>
+				<p>Creating the user interface and user experience of a website using HTML, CSS, and JavaScript.
+                        Ensuring responsive design for various screen sizes and devices.</p>
+				
+			</div>
+			<div>
+				<i class="fa-solid fa-crop-simple"></i>
+				<h2>UI/UX Design</h2>
+				<p>Providing user interface (UI) and user experience (UX) design services to create visually appealing and user-friendly web interfaces.</p>
+				
+			</div>
+			<div>
+				<i class="fa-brands fa-app-store"></i>
+				<h2>Software Development</h2>
+				<p> Building software solutions tailored to a client's specific needs and requirements, such as business management systems, data analytics tools, or customer relationship management (CRM) software.</p>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<!----------My projects-------------->
+<div id="project">
+	<div class="container">
+		<h1 class="sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/Screenshot (61).png">
+				 <div class="layer">
+				 	<h3>Zomato Clone App</h3>
+				 	<p>The app shows the diffrent restorents food items and ordering the food items by online</p>
+				 	<a href="https://azomatoclone.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				 </div>
+			</div>
+			<div class="work">
+				<img src="images/Screenshot (122).png">
+				<div class="layer">
+				 	<h3>Tip Calculator</h3>
+				 	<p>The app calculating a tip at a restaurant.It is a user-friendly interface where users can input the total bill amount and select a tip percentage </p>
+				 	<a href="https://atipcalculatorr.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				 </div>
+			</div>
+			<div class="work">
+				<img src="images/Screenshot (121).png">
+				<div class="layer">
+				 	<h3>Password Generator</h3>
+				 	<p>This password generator application is a tool that helps users create strong and secure passwords for various online accounts and services.</p>
+				 	<a href="https://apassword-generator.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				 </div>
+			</div>
+			<div id="hidden-content" class="work">
+				<img src="images/Screenshot (127).png">
+				<div class="layer">
+				 	<h3>Weather App</h3>
+				 	<p>A weather app is a software application designed to provide users with up-to-date information about current weather conditions and forecasts for specific locations.</p>
+				 	<a href="https://aweather-app.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				 </div>
+			</div>
+		</div>
+		<a href="#" id="see-more-link" class="btn">See more</a>
+	</div>
+</div>
+
+
+
+<!----------My Certificates-------------->
+<div id="project">
+	<div class="container">
+		<h1 class="sub-title">Certificates</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/Screenshot (60).png">
+			</div>
+			<div class="work">
+				<img src="images/1.jpeg">
+			</div>
+			<div class="work">
+				<img src="images/2.jpeg">
+			</div>
+		</div>
+    
+   <div id="content">
+   	<div class="work-list">
+   		<div class="work">
+				<img src="images/3.jpeg">
+			</div>
+			<div class="work">
+				<img src="images/Screenshot (123).png">
+			</div>
+			<div class="work">
+				<img src="images/4.jpeg">
+			</div>
+			<div class="work">
+				<img src="images/5.jpeg">
+			</div>
+			<div class="work">
+				<img src="images/6.jpeg">
+			</div>
+			<div class="work">
+				<img src="images/Screenshot (124).png">
+			</div>
+   	</div>
+   </div>
+   <button id="seeMoreButton" class="btn">See More</button>
+	</div>
+</div>
+
+
+
+
+
+<!-------------Contact--------------->
+
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-paper-plane"></i> keerthimoger@gmail.com</p>
+				<p><i class="fa-solid fa-phone"></i>9743405265</p>
+				<div class="social-icons">
+					<!--<a href="#"><i class="fa-brands fa-facebook"></i></a>-->
+					<a href="https://www.linkedin.com/in/keerthiraj-moger-1b1777248/"><i class="fa-brands fa-linkedin"></i></a>
+					<!--<a href="#"><i class="fa-brands fa-instagram"></i></a>-->
+					<a href="https://github.com/Keer324"><i class="fa-brands fa-github"></i></a>
+					<a href="https://www.hackerrank.com/keerthimoger"><i class="fa-brands fa-hackerrank"></i></a>
+				</div>
+				<a href="images/Keerthiraj_Resume.pdf" download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right"> 
+			  <form name="submit-to-google-sheet">
+			  	<input type="text" name="Name" placeholder="Your Name" required>
+			  	<input type="email" name="Email" placeholder="Your Email" required>
+			  	<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+			  	<button type="submit" class="btn btn2">Submit</button>
+			  </form>
+			  <span id="msg"></span>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright @ Keerthiraj. Made with by Easy Totorial</p>
+	</div>
+</div>
+
+<script>
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+</script>
+
+
+<script type="text/javascript">
+	var sidemenu = document.getElementById("sidemenu");
+
+	function openmenu(){
+		sidemenu.style.right = "0";
+	}
+	function closemenu(){
+		sidemenu.style.right = "-200px";
+	}
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwrhAxzUBIkBP6keFd-9N_3AO5-er1MqcwIAFRr1W-Dhgy147eldbfsRGrvm2vMYjwA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Message sent successfully"
+      	setTimeout(function(){
+      		msg.innerHTML = ""
+      	},5000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+<script type="text/javascript"> 
+ const seeMoreLink = document.getElementById('see-more-link');
+const hiddenContent = document.getElementById('hidden-content');
+
+seeMoreLink.addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent the default behavior of the anchor tag
+
+  if (hiddenContent.style.display === 'none' || hiddenContent.style.display === '') {
+    hiddenContent.style.display = 'block';
+    seeMoreLink.textContent = 'See less';
+  } else {
+    hiddenContent.style.display = 'none';
+    seeMoreLink.textContent = 'See more';
+  }
+});
+</script>
+
+
+<script>
+        const content = document.getElementById('content');
+        const seeMoreButton = document.getElementById('seeMoreButton');
+
+        seeMoreButton.addEventListener('click', function() {
+            if (content.style.display === 'none') {
+                content.style.display = 'block'; // Expand the content to show all
+                seeMoreButton.textContent = 'See Less';
+            } else {
+                content.style.display = 'none'; // Collapse the content to the initial height
+                seeMoreButton.textContent = 'See More';
+            }
+        });
+ </script>
+
+
+
+ 
+
+
+</body>
+</html>
