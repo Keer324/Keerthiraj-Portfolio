@@ -140,15 +140,53 @@
 				 	<a href="https://apassword-generator.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
 				 </div>
 			</div>
-			<div id="hidden-content" class="work">
-				<img src="images/Screenshot (127).png">
+		</div>
+
+		<div id="hidden-content">
+		  <div class="work-list">
+			<div class="work">
+				<img src="images/Screenshot (138).png">
 				<div class="layer">
 				 	<h3>Weather App</h3>
 				 	<p>A weather app is a software application designed to provide users with up-to-date information about current weather conditions and forecasts for specific locations.</p>
 				 	<a href="https://aweather-app.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
 				 </div>
 			</div>
+			<div class="work">
+				<img src="images/Screenshot (142).png">
+				<div class="layer">
+				 	<h3>NoteSync</h3>
+				 	<p>NoteSync offers a feature-packed solution to capture ideas, reminders, and important information in a seamless and efficient manner.</p>
+				 	<a href="https://anotes-app.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				 </div>
+			</div>
+			<div class="work">
+				<img src="images/Screenshot (141).png">
+				<div class="layer">
+				 	<h3>TO-DO-List</h3>
+				 	<p>To-do list app helps to organize, prioritize, and accomplish the daily tasks with ease.</p>
+				 	<a href="https://ato-do-list-app.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				 </div>
+			</div>
+			<div class="work">
+				<img src="images/Screenshot (139).png">
+				<div class="layer">
+				 	<h3>QR code Generator</h3>
+				 	<p>Transform any piece of data into a scannable QR code effortlessly, and share it with just a tap.</p>
+				 	<a href="https://qrcodegenerator-app.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				 </div>
+			</div>
+			<div class="work">
+				<img src="images/Screenshot (140).png">
+				<div class="layer">
+				 	<h3>Text-Speech Coverter</h3>
+				 	<p>Introducing VoiceGenie, your go-to Text to Speech (TTS) converter that brings text to life with natural and expressive voices. </p>
+				 	<a href="https://text-speech-connverter.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				 </div>
+			</div>
+			
 		</div>
+	</div>
 		<a href="#" id="see-more-link" class="btn">See more</a>
 	</div>
 </div>
@@ -173,7 +211,7 @@
     
    <div id="content">
    	<div class="work-list">
-   		<div class="work">
+   		    <div class="work">
 				<img src="images/3.jpeg">
 			</div>
 			<div class="work">
@@ -305,7 +343,8 @@ seeMoreLink.addEventListener('click', function(event) {
         const content = document.getElementById('content');
         const seeMoreButton = document.getElementById('seeMoreButton');
 
-        seeMoreButton.addEventListener('click', function() {
+        seeMoreButton.addEventListener('click', function(event) {
+        	event.preventDefault();
             if (content.style.display === 'none') {
                 content.style.display = 'block'; // Expand the content to show all
                 seeMoreButton.textContent = 'See Less';
