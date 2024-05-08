@@ -29,6 +29,6 @@ I'm proficient in a wide range of technologies, including:
 
 ## Let's Connect
 
-Feel free to explore my work, and don't hesitate to reach out if you'd like to collaborate or have any questions. You can also find me on [LinkedIn](https://github.com/Keer324) for updates and discussions.
+Feel free to explore my work, and don't hesitate to reach out if you'd like to collaborate or have any questions. You can also find me on [LinkedIn](https://www.linkedin.com/in/keerthiraj-moger-1b1777248/) for updates and discussions.
 
 Thanks for visiting!
